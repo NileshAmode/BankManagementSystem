@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #555555;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #E8E838;
+        }
+
+        .header h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #E8E838;
+        }
+
+        .navbar {
+            margin-top: 85px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            background-color: #333333;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #555555;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #222222;
+        }
+
+        .section {
+            width: 30%;
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #555555;
+        }
+
+        .section h3 {
+            margin-top: 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #efefef;
+            padding: 20px;
+        }
+
+        .footer div {
+            width: 30%;
+            padding-left:20px;
+        }
+
+        .footer h3 {
+            margin-top: 10px;
+            margin-left: -21px;
+            width: 70%;
+            color: #0e0e0d;
+            padding-left: 170px;
+        }
+
+        .services,
+        .welcome,
+        .news-events {
+            border-style: solid;
+        }
+        pre
+        {
+          font-family: cursive;
+          font-size: 21px;
+          color: black;
+        }
+
+        /* Form styling */
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 11px;
+            color: #060605;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        input[type="tel"] {
+            padding: 8px;
+            border: 1px solid #555555;
+            border-radius: 5px;
+            background-color: #fffdfd;
+            
+        }
+        #img
+        { 
+  			 width: 320px;
+  			 margin-left:45px;
+  			 height: 160px;
+		}
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #c3c3c3;
+            color: #000000;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #706e6e;
+        }
+    
